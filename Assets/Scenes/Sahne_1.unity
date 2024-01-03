@@ -5001,7 +5001,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6829456, y: 0.2582348, z: -9.943675}
+  m_LocalPosition: {x: -5.2746725, y: -1.1267252, z: -9.943675}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6873,7 +6873,7 @@ Transform:
   m_GameObject: {fileID: 845355336}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6829456, y: 0.2582348, z: -9.943675}
+  m_LocalPosition: {x: -8.112946, y: -1.1217651, z: -9.943675}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15936,10 +15936,10 @@ GameObject:
   - component: {fileID: 1041286778}
   - component: {fileID: 1041286777}
   - component: {fileID: 1041286776}
-  - component: {fileID: 1041286779}
   - component: {fileID: 1041286780}
   - component: {fileID: 1041286781}
   - component: {fileID: 1041286782}
+  - component: {fileID: 1041286783}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -16035,7 +16035,7 @@ Transform:
   m_GameObject: {fileID: 1041286775}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.64, y: 0.32, z: 0}
+  m_LocalPosition: {x: -6.79, y: -1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16045,22 +16045,6 @@ Transform:
   - {fileID: 1149460550}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1041286779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1041286775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 49db965dbd053f744a99cfba1c410119, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 4
-  dashSpeed: 4
-  myTrailRenderer: {fileID: 1149460551}
-  weaponCollider: {fileID: 1212312193}
 --- !u!95 &1041286780
 Animator:
   serializedVersion: 7
@@ -16132,6 +16116,22 @@ SortingGroup:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_SortAtRoot: 0
+--- !u!114 &1041286783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041286775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49db965dbd053f744a99cfba1c410119, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 4
+  dashSpeed: 4
+  myTrailRenderer: {fileID: 1149460551}
+  weaponCollider: {fileID: 1212312193}
 --- !u!1001 &1057843507
 PrefabInstance:
   m_ObjectHideFlags: 0
