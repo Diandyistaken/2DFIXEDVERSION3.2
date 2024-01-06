@@ -6,13 +6,44 @@ public class Shooter : MonoBehaviour, IEnemy
 {
 
     [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private float bulletMoveSpeed;
+    [SerializeField] private int burstCount;
+    [SerializeField] private float timeBetweenBursts;
+    [SerializeField] private float restTime = 1f;
+
+    private bool isShooting = false;
+
     public void Attack()
     {
-        Vector2 targetDirection = PlayerController.Instance.transform.position - transform.position;
-        
-        GameObject newBullet = Instantiate(bulletPrefab,transform.position,Quaternion.identity);
-        newBullet.transform.right = targetDirection;
+        if (!isShooting)
+        {
+            StartCoroutine(ShootRoutine());
+        }
 
         
+    }
+
+    private IEnumerator ShootRoutine() { 
+        isShooting=true;
+
+        for (int i = 0; i < burstCount; i++)
+        {
+            
+            Vector2 targetDirection = PlayerController.Instance.transform.position - transform.position;
+        
+            GameObject newBullet = Instantiate(bulletPrefab,transform.position,Quaternion.identity);
+            newBullet.transform.right = targetDirection;
+
+
+            // bunu yapmamizin sebebi take a method or a function pass through a parameter, and then access it outside of the function. 
+            if(newBullet.TryGetComponent(out Projectile projectile)) { 
+                projectile.UpdateMoveSpeed(bulletMoveSpeed);
+            
+            }
+            yield return new WaitForSeconds(timeBetweenBursts);
+        }
+
+        yield return new WaitForSeconds(restTime);
+        isShooting = false;
     }
 }
