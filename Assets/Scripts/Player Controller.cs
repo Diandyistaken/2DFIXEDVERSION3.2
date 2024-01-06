@@ -114,7 +114,7 @@ public class PlayerController : Singleton<PlayerController>
     private IEnumerator EndDashRoutine()
     {
         float dashTime = .2f;
-        float dashCD = .25f;
+        float dashCD = .35f;
         yield return new WaitForSeconds(dashTime);
         moveSpeed = startingMoveSpeed;
         myTrailRenderer.emitting = false;

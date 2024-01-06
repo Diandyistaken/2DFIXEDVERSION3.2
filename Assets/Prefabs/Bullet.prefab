@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1082559188370160930}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.19, y: 0.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -162,5 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5640241c71e46d34591252ac0323aa21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 22
+  moveSpeed: 8
   particleOnHitPrefabVFX: {fileID: 5759448358421120819, guid: b0f7b9ceb5760a0489a6acc6f6adc68c, type: 3}
+  isEnemyProjectile: 1
+  projectileRange: 30
