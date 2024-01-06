@@ -14,11 +14,27 @@ public class Shooter : MonoBehaviour, IEnemy
     [SerializeField] private float timeBetweenBursts;
     [SerializeField] private float restTime = 1f;
     [SerializeField] private bool stagger;
+    [Tooltip("Oscillate dogru calisabilmesi icin Stagger acik olmali.")]
     [SerializeField] private bool oscillate;
 
 
 
     private bool isShooting = false;
+
+
+    private void OnValidate()
+    {
+        if (oscillate) { stagger = true; }  
+        if(!oscillate) { stagger = false; }
+        if(projectilesPerBurst < 1) { projectilesPerBurst = 1; }
+        if(burstCount < 1) {  burstCount = 1; }
+        if(timeBetweenBursts < 0.1f) { timeBetweenBursts = 0.1f; }
+        if(restTime < 0.1f) { restTime = 0.1f; }
+        if(startingDistance < 0.1f) { startingDistance = 0.1f; }
+        if(angleSpread == 0 ) { projectilesPerBurst = 1; }
+        if(bulletMoveSpeed <= 0 ) { bulletMoveSpeed = 0.1f; }
+
+    }
 
     public void Attack()
     {
