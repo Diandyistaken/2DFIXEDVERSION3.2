@@ -283,6 +283,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 1082559188370160930, guid: 997fd05276ea41d46b390cea85c53e98, type: 3}
+  bulletMoveSpeed: 5
+  burstCount: 3
+  projectilesPerBurst: 8
+  angleSpread: 91
+  startingDistance: 0.3
+  timeBetweenBursts: 1
+  restTime: 0.5
+  stagger: 1
+  oscillate: 1
 --- !u!1 &7261802681353944228
 GameObject:
   m_ObjectHideFlags: 0
