@@ -61,7 +61,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -116,19 +116,19 @@ TextureImporter:
       name: Grape Attack Sheet_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 29
-        width: 19
-        height: 24
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 74668f001a6c89250800000000000000
-      internalID: 5951725302378423879
+      spriteID: 27c502ef4d8320d4aba6a993d661fdb2
+      internalID: -872713375
       vertices: []
       indices: 
       edges: []
@@ -137,19 +137,19 @@ TextureImporter:
       name: Grape Attack Sheet_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 29
-        width: 19
-        height: 25
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5eb3a7eaf6e809f00800000000000000
-      internalID: 1121552917535013861
+      spriteID: d0a280963f1b3924988b053d593b84c4
+      internalID: 1676489418
       vertices: []
       indices: 
       edges: []
@@ -158,19 +158,19 @@ TextureImporter:
       name: Grape Attack Sheet_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 29
-        width: 19
-        height: 26
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 705593a083ee9b990800000000000000
-      internalID: -7369597390757997305
+      spriteID: d9d5853fc7a6ad94e99f17bb318087f9
+      internalID: -1641412800
       vertices: []
       indices: 
       edges: []
@@ -179,19 +179,19 @@ TextureImporter:
       name: Grape Attack Sheet_3
       rect:
         serializedVersion: 2
-        x: 213
-        y: 29
-        width: 19
-        height: 26
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7a7e6a47746a5430800000000000000
-      internalID: 3772438101388851834
+      spriteID: 85c7433434d36714ead9ca6fa666308a
+      internalID: -2017891465
       vertices: []
       indices: 
       edges: []
@@ -200,19 +200,19 @@ TextureImporter:
       name: Grape Attack Sheet_4
       rect:
         serializedVersion: 2
-        x: 277
-        y: 29
-        width: 20
-        height: 25
+        x: 256
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8e32ca5b3f7f14c0800000000000000
-      internalID: -4314590025095168372
+      spriteID: ff90f2e4fcf51674a841cc3563637470
+      internalID: 2123412856
       vertices: []
       indices: 
       edges: []
@@ -221,19 +221,19 @@ TextureImporter:
       name: Grape Attack Sheet_5
       rect:
         serializedVersion: 2
-        x: 341
-        y: 29
-        width: 20
-        height: 25
+        x: 320
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6ea0be01e5c317c80800000000000000
-      internalID: -8326807861322904858
+      spriteID: c973f364e240e284db108333fcef4b32
+      internalID: 1153670772
       vertices: []
       indices: 
       edges: []
@@ -249,8 +249,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hero_Idle_0: -1071302430762533504
-      Hero_Idle_1: 402119133011603176
+      Grape Attack Sheet_0: -872713375
+      Grape Attack Sheet_1: 1676489418
+      Grape Attack Sheet_2: -1641412800
+      Grape Attack Sheet_3: -2017891465
+      Grape Attack Sheet_4: 2123412856
+      Grape Attack Sheet_5: 1153670772
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

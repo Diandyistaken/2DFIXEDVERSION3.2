@@ -55,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -110,19 +110,19 @@ TextureImporter:
       name: Grape Walk Sheet_0
       rect:
         serializedVersion: 2
-        x: 21
-        y: 29
-        width: 19
-        height: 24
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 02ab6e7d69a07f470800000000000000
-      internalID: 8428216870630767136
+      spriteID: 68732b64c89e78843ad053c32b817411
+      internalID: 673180311
       vertices: []
       indices: 
       edges: []
@@ -131,19 +131,19 @@ TextureImporter:
       name: Grape Walk Sheet_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 29
-        width: 20
-        height: 25
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3ed3fbdbc2edc85b0800000000000000
-      internalID: -5364668772361749021
+      spriteID: 325b443c4a7bf0a44a9c681572f85398
+      internalID: 2112646880
       vertices: []
       indices: 
       edges: []
@@ -152,19 +152,19 @@ TextureImporter:
       name: Grape Walk Sheet_2
       rect:
         serializedVersion: 2
-        x: 149
-        y: 29
-        width: 19
-        height: 24
+        x: 128
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 440f17f837cc03b60800000000000000
-      internalID: 7723898157640314948
+      spriteID: 39a9d0de023159f4f81d58f9862c381d
+      internalID: -747109892
       vertices: []
       indices: 
       edges: []
@@ -173,19 +173,19 @@ TextureImporter:
       name: Grape Walk Sheet_3
       rect:
         serializedVersion: 2
-        x: 213
-        y: 29
-        width: 19
-        height: 25
+        x: 192
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 22670b90eb598c5d0800000000000000
-      internalID: -3042016904849885662
+      spriteID: 05e656acfd49de6448876c1dff3f8cfc
+      internalID: -69619804
       vertices: []
       indices: 
       edges: []
@@ -201,8 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hero_Idle_0: -1071302430762533504
-      Hero_Idle_1: 402119133011603176
+      Grape Walk Sheet_0: 673180311
+      Grape Walk Sheet_1: 2112646880
+      Grape Walk Sheet_2: -747109892
+      Grape Walk Sheet_3: -69619804
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
