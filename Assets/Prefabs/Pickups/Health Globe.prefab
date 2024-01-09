@@ -10,12 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4917216857755621234}
   - component: {fileID: 7835794978396811246}
-  - component: {fileID: 8288368074929800780}
   - component: {fileID: 2878197098321214669}
   - component: {fileID: 3795558332246145934}
   - component: {fileID: 6515601250811430508}
   m_Layer: 0
-  m_Name: Gold Coin
+  m_Name: Health Globe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -56,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 4f439673db9232b4d995cb1154bffcd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,7 +76,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 52410360, guid: e3b32751c9d74cc4cb96f403cb5b17d4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bb3aa5e62deb2b44f88bbbb9c3af0917, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -88,28 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &8288368074929800780
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6104700574781045686}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3afe95c1efd09554f90e82589a69a399, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!70 &2878197098321214669
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -186,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3c8e760c631801459b518635e1cee6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickUpType: 2
   pickUpDistance: 3
   accelartionRate: 0.4
   moveSpeed: 2
