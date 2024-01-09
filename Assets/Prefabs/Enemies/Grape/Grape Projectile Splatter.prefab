@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 533122527360449221}
   - component: {fileID: -5906962120838879001}
   - component: {fileID: 6466078341061264329}
+  - component: {fileID: 1511653667066823256}
   m_Layer: 0
   m_Name: Grape Projectile Splatter
   m_TagString: Untagged
@@ -118,7 +119,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -157,10 +158,23 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5958657249408838115}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1ec41019fd9c43e4ebe264e98823c510, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   whiteFlashMat: {fileID: 0}
   restoreDefaultMatTime: 0.2
+--- !u!114 &1511653667066823256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5958657249408838115}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 106d6fb2015a5654b8f6198541ec4029, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  knockBackTime: 0.2

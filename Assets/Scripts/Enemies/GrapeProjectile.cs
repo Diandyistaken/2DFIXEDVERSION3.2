@@ -38,7 +38,7 @@ public class GrapeProjectile : MonoBehaviour
             yield return null;
         }
 
-        Instantiate(splatterPrefab, transform.position, Quaternion.identity);   
+        Instantiate(splatterPrefab, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 

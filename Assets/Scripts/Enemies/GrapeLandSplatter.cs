@@ -16,9 +16,7 @@ public class GrapeLandSplatter : MonoBehaviour
         StartCoroutine(spriteFade.SlowFadeRoutine());
 
         Invoke("DisableCollider", 0.2f);
-
     }
-
 
     private void OnTriggerEnter2D(Collider2D other)
     {

@@ -3070,33 +3070,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1273905761030817441, guid: f776ceb36b584ac41b6287d5333f6897, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.40705442
-      objectReference: {fileID: 0}
-    - target: {fileID: 1273905761030817441, guid: f776ceb36b584ac41b6287d5333f6897, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.27823478
-      objectReference: {fileID: 0}
     - target: {fileID: 1304173749197363249, guid: f776ceb36b584ac41b6287d5333f6897, type: 3}
       propertyPath: m_Follow
       value: 
       objectReference: {fileID: 969511599}
     - target: {fileID: 1304173749197363249, guid: f776ceb36b584ac41b6287d5333f6897, type: 3}
       propertyPath: m_ChildCameras.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1607155921743372965, guid: f776ceb36b584ac41b6287d5333f6897, type: 3}
       propertyPath: m_Name
       value: Cameras
-      objectReference: {fileID: 0}
-    - target: {fileID: 8855922549855345694, guid: f776ceb36b584ac41b6287d5333f6897, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.40705442
-      objectReference: {fileID: 0}
-    - target: {fileID: 8855922549855345694, guid: f776ceb36b584ac41b6287d5333f6897, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.27823478
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
