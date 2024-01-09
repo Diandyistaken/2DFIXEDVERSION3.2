@@ -102,7 +102,6 @@ GameObject:
   - component: {fileID: 6525316425071187401}
   - component: {fileID: 1636191047633849993}
   - component: {fileID: 7847189536789404806}
-  - component: {fileID: 622408124881976575}
   - component: {fileID: 1035541550631345260}
   - component: {fileID: 5934790917524708757}
   - component: {fileID: 4520844795951355236}
@@ -310,7 +309,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingHealth: 3
-  deathVFXPrefab: {fileID: 5759448358421120819, guid: c2393c7107e63dd4c89662b69b10bb6b, type: 3}
+  deathVFXPrefab: {fileID: 5759448358421120819, guid: 9aa141d477888b845b1e877508e0db3c, type: 3}
   knockBackThrust: 15
 --- !u!114 &1636191047633849993
 MonoBehaviour:
@@ -339,20 +338,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   whiteFlashMat: {fileID: 2100000, guid: 9447bf96f400294479f0c60d973d7cac, type: 2}
   restoreDefaultMatTime: 0.2
---- !u!114 &622408124881976575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7093631392258465972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1ec41019fd9c43e4ebe264e98823c510, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  whiteFlashMat: {fileID: 0}
-  restoreDefaultMatTime: 0.1
 --- !u!114 &1035541550631345260
 MonoBehaviour:
   m_ObjectHideFlags: 0
