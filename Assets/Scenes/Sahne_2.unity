@@ -8727,9 +8727,33 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1159688598723954643, guid: 87850113836bbed4dad605b740cd36b8, type: 3}
+      propertyPath: m_Size.x
+      value: 0.3828125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159688598723954643, guid: 87850113836bbed4dad605b740cd36b8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.3828125
+      objectReference: {fileID: 0}
+    - target: {fileID: 1159688598723954643, guid: 87850113836bbed4dad605b740cd36b8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4750761433519615375, guid: 80623c12062438b4887cd7904fd75775, type: 3}
+    - target: {fileID: 1159688598723954643, guid: 87850113836bbed4dad605b740cd36b8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1780037534680753019, guid: 87850113836bbed4dad605b740cd36b8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3548485939624972130, guid: 87850113836bbed4dad605b740cd36b8, type: 3}
       propertyPath: m_Name
       value: Managers
+      objectReference: {fileID: 0}
+    - target: {fileID: 7206623094208102277, guid: 87850113836bbed4dad605b740cd36b8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
