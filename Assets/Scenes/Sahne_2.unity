@@ -23808,7 +23808,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 270240646316632165, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: transitionName
-      value: West_Entrance
+      value: South_Entrance
       objectReference: {fileID: 0}
     - target: {fileID: 1598484608491626198, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23852,15 +23852,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4505924275982344040, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: sceneToLoad
-      value: Sahne_1
+      value: Town
       objectReference: {fileID: 0}
     - target: {fileID: 4505924275982344040, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: sceneTransitionName
-      value: East_Entrance
+      value: North_Entrance
       objectReference: {fileID: 0}
     - target: {fileID: 5611289294113910426, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_Flip.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611289294113910426, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: m_RenderAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5673897189412379629, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 1.2935308
       objectReference: {fileID: 0}
     - target: {fileID: 7308023114198418725, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_Name
@@ -23892,15 +23900,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_Size.x
-      value: 1.4655647
+      value: 2.4241257
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: m_Size.y
+      value: 2.1056557
       objectReference: {fileID: 0}
     - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_Offset.x
-      value: 0.6333456
+      value: 1.1126261
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.6677809
       objectReference: {fileID: 0}
     - target: {fileID: 9215818361725304499, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.19
+      value: 0.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215818361725304499, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.37
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

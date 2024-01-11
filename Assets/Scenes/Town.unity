@@ -21119,7 +21119,7 @@ GameObject:
   - component: {fileID: 1068165957}
   - component: {fileID: 1068165956}
   m_Layer: 0
-  m_Name: npc_3_0
+  m_Name: NPC_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21455,7 +21455,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1147306370
 Transform:
   m_ObjectHideFlags: 0
@@ -32889,7 +32889,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 270240646316632165, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: transitionName
-      value: West_Entrance
+      value: North_Entrance
       objectReference: {fileID: 0}
     - target: {fileID: 1598484608491626198, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32933,11 +32933,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4505924275982344040, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: sceneToLoad
-      value: Sahne_1
+      value: Sahne_2
       objectReference: {fileID: 0}
     - target: {fileID: 4505924275982344040, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: sceneTransitionName
-      value: East_Entrance
+      value: South_Entrance
       objectReference: {fileID: 0}
     - target: {fileID: 5611289294113910426, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_Flip.x
@@ -32989,15 +32989,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_Size.x
-      value: 1.4655647
+      value: 2.7233238
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: m_Size.y
+      value: 1.6750259
       objectReference: {fileID: 0}
     - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_Offset.x
-      value: 0.6333456
+      value: 1.6693912
+      objectReference: {fileID: 0}
+    - target: {fileID: 8918331372908406865, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.88309574
       objectReference: {fileID: 0}
     - target: {fileID: 9215818361725304499, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.19
+      value: 1.632
+      objectReference: {fileID: 0}
+    - target: {fileID: 9215818361725304499, guid: 4beb5b9faca2a494a9ecba8016b9e1ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.734
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
