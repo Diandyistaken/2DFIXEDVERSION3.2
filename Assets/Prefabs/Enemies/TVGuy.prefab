@@ -105,6 +105,8 @@ GameObject:
   - component: {fileID: 3769391660578837962}
   - component: {fileID: 9019068245609038095}
   - component: {fileID: 1627282170157030632}
+  - component: {fileID: 5209770770327399346}
+  - component: {fileID: -1855525412784031990}
   m_Layer: 0
   m_Name: TVGuy
   m_TagString: Untagged
@@ -216,7 +218,6 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5604714229035992054}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -240,8 +241,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: -0.14185622, y: -0.06508445}
   m_Size: {x: 1.8608599, y: 1.8608599}
   m_Direction: 1
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
   attackRange: 5
-  enemyType: {fileID: 0}
+  enemyType: {fileID: -1855525412784031990}
   attackCooldown: 2
   stopMovingWhileAttacking: 0
 --- !u!114 &7092883423191364282
@@ -357,7 +357,7 @@ SortingGroup:
   m_SortAtRoot: 0
 --- !u!95 &1627282170157030632
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -371,12 +371,48 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5209770770327399346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604714229035992054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0c7d635e612d2479f062b52b3485c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  goldCoin: {fileID: 6104700574781045686, guid: 8c4b9156299fa144880b9f216bf9c072, type: 3}
+  healthGlobe: {fileID: 6104700574781045686, guid: d7dea0e44622c7e40b104205b7d3849e, type: 3}
+  staminaGlobe: {fileID: 6104700574781045686, guid: 0076dead2047fca449ff91bc47fe7510, type: 3}
+--- !u!114 &-1855525412784031990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5604714229035992054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d3d02f560971b428a797e0725a2a88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1082559188370160930, guid: 983ff182ab0b6834ea04e9c092f1b8e8, type: 3}
+  bulletMoveSpeed: 5
+  burstCount: 4
+  projectilesPerBurst: 10
+  angleSpread: 31
+  startingDistance: 0.3
+  timeBetweenBursts: 0.1
+  restTime: 1
+  stagger: 0
+  oscillate: 0
 --- !u!1 &7019785037480677124
 GameObject:
   m_ObjectHideFlags: 0

@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 3296223092848446005}
   - component: {fileID: 3466975625693285262}
   - component: {fileID: 8947043536129182810}
+  - component: {fileID: 4540760027932569825}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -99,7 +100,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &5779653093405514568
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -113,7 +114,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -154,7 +154,6 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1462638932517498615}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -178,8 +177,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0.012527112, y: 0.021377118}
   m_Size: {x: 1.056177, y: 0.82330817}
   m_Direction: 1
@@ -196,10 +194,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roamChangeDirFloat: 2
-  attackRange: 0
-  enemyType: {fileID: 0}
+  attackRange: 5
+  enemyType: {fileID: 4540760027932569825}
   attackCooldown: 2
-  stopMovingWhileAttacking: 0
+  stopMovingWhileAttacking: 1
 --- !u!114 &126478501308231777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,6 +306,28 @@ MonoBehaviour:
   goldCoin: {fileID: 6104700574781045686, guid: 8c4b9156299fa144880b9f216bf9c072, type: 3}
   healthGlobe: {fileID: 6104700574781045686, guid: d7dea0e44622c7e40b104205b7d3849e, type: 3}
   staminaGlobe: {fileID: 6104700574781045686, guid: 0076dead2047fca449ff91bc47fe7510, type: 3}
+--- !u!114 &4540760027932569825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462638932517498615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21d3d02f560971b428a797e0725a2a88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 1082559188370160930, guid: f370fcb2a9f2e0b459465081277379c5, type: 3}
+  bulletMoveSpeed: 2
+  burstCount: 1
+  projectilesPerBurst: 1
+  angleSpread: 0
+  startingDistance: 0.3
+  timeBetweenBursts: 1
+  restTime: 1
+  stagger: 0
+  oscillate: 0
 --- !u!1 &2097337726228094446
 GameObject:
   m_ObjectHideFlags: 0

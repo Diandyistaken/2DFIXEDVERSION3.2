@@ -132,7 +132,6 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2171931166982761884}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -156,8 +155,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0.012527112, y: 0.021377118}
   m_Size: {x: 1.056177, y: 0.82330817}
   m_Direction: 1
@@ -203,7 +201,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 046fbd2cc83e68a458e4c25c5cff687c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 5
+  startingHealth: 6
   deathVFXPrefab: {fileID: 5759448358421120819, guid: d39ec5a9bb9a8014fad08fc5142485e5, type: 3}
   knockBackThrust: 15
 --- !u!114 &253603247499730771

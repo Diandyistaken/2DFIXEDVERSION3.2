@@ -126,7 +126,7 @@ Rigidbody2D:
   m_Constraints: 4
 --- !u!95 &7717746851437830333
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -140,7 +140,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -154,7 +153,6 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1567617078501083907}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -178,8 +176,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0.06911943, y: -0.005864033}
   m_Size: {x: 0.4010988, y: 0.2791348}
   m_Direction: 1
@@ -252,7 +249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 3
   knockBackThrustAmount: 10
-  DamageRecoveryTime: 1
+  damageRecoveryTime: 1
 --- !u!114 &3292518615677245489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -265,6 +262,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e572ccb939653049a3a2b31cebe9737, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  fullStaminaImage: {fileID: 21300000, guid: 96bb614933679f540b1a63a9658bb2cb, type: 3}
+  emptyStaminaImage: {fileID: 21300000, guid: d75c985b723476c4587fe8b31dd8d583, type: 3}
+  timeBetweenStaminaRefresh: 3
 --- !u!1 &2731797809142916434
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,7 +576,6 @@ PolygonCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7747648311608603012}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -600,8 +599,7 @@ PolygonCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
